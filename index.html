@@ -8,38 +8,54 @@
   <title>Phonie</title>
 
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" </head>
+
+</head>
 
 <body>
-
-  <div class="form-box">
-    <h1>Create an account</h1>
-    <h5>Please fill the form to Create an account to     
-        start using Phonie</h5>
-    
-          <!--INPUT FOR EMAIL -->
-    <div class="input-box">
-      <input type="email" placeholder="Email Id">
+  <form action="" method="get" class="all" id="form">
+    <div class="photo">
+      <img src="assets/image.png" alt="Phonie users">
     </div>
-    
-            <!--INPUT FOR PASSWORD -->
-    <div class="input-box">
-      <input type="password" placeholder="Password"                 id="myInput">
+    <div class="form-box">
+      <h1>Create an account</h1>
+      <p>Please fill in the form to get started!</p>
+
+      <!--INPUT FOR EMAIL -->
+      <div class="input-box">
+        <input type="email" placeholder="Email" id="email">
+      </div>
+      <!--INPUT FOR USERNAME -->
+      <div class="input-box">
+        <input type="text" placeholder="Username" id="username">
+      </div>
+      <!--INPUT FOR PASSWORD -->
+      <div class="input-box">
+        <input type="password" placeholder="Password" id="password">
+      </div>
+
+      <!--INPUT FOR PHONE NUMBER -->
+      <div class="app">
+        <div class="phone-box">
+          <label for="phone">Phone number</label>
+          <div class="phone-isp-icon">
+            <img src="assets/Loading.svg" class="isp-icon" alt="isp
+                icon">
+          </div>
+          <input type="number" name="phone" id="phone" autocomplete="off">
+        </div>
+      </div>
+
+      <!--CREATE ACCOUNT BUTTON -->
+      <button type="submit" class="submit-btn" id="button">Create Account</button>
+
     </div>
-    
-          <!--INPUT FOR PHONE NUMBER -->
-    <div class="input-box">
-            <input type="tel" placeholder="Phone Number">
-    </div>
-              <!--SUBMIT BUTTON -->
-    <button type="button" class="submit-btn">SUBMIT</button>
-    
-  </div>
+  </form>
 
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
 
 </html>

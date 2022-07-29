@@ -1,3 +1,7 @@
 import startApp from './app.mjs';
 
-document.addEventListener('DOMContentLoaded', startApp); 
+//   // ======= DO NOT EDIT ============== //
+export default startApp; 
+//   // ======= EEND DO NOT EDIT ========= //
+
+document.addEventListener('DOMContentLoaded', startApp);
